@@ -10,7 +10,6 @@ export default function Main() {
     <div>
       <Header />
       <About />
-      <Canvas />
       <Experience />
       <Projects />
       <Contact />
