@@ -1,8 +1,16 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
 /*!
  * TagCloud.js v2.3.0
  * Copyright (c) 2016-2022 @ Cong Min
  * MIT License - https://github.com/mcc108/TagCloud
  */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
 
 /**
  * @license React
