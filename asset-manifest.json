@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.08a689b5.css",
-    "main.js": "/portfolio-react/static/js/main.b0741853.js",
+    "main.css": "/portfolio-react/static/css/main.e6c13ad2.css",
+    "main.js": "/portfolio-react/static/js/main.82b2fd84.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-react/static/js/787.1ed0c42c.chunk.js",
     "static/media/unusual-places-in-the-world.png": "/portfolio-react/static/media/unusual-places-in-the-world.7d44dbaa27bf9c26f2e3.png",
     "static/media/colorize2.png": "/portfolio-react/static/media/colorize2.fb49dab8d07beb2db1ef.png",
     "static/media/smartEdukacja.png": "/portfolio-react/static/media/smartEdukacja.26eaf766b638727e1f5d.png",
     "index.html": "/portfolio-react/index.html",
-    "main.08a689b5.css.map": "/portfolio-react/static/css/main.08a689b5.css.map",
-    "main.b0741853.js.map": "/portfolio-react/static/js/main.b0741853.js.map",
+    "main.e6c13ad2.css.map": "/portfolio-react/static/css/main.e6c13ad2.css.map",
+    "main.82b2fd84.js.map": "/portfolio-react/static/js/main.82b2fd84.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08a689b5.css",
-    "static/js/main.b0741853.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.82b2fd84.js"
   ]
 }
