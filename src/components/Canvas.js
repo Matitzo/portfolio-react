@@ -13,8 +13,6 @@ export default function Canvas() {
         "JavaScript",
         "React",
         "NodeJS",
-        "jQuery",
-        "TypeScript",
         "Git",
         "GitHub",
         "Leaflet",
