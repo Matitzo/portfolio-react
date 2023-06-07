@@ -3,7 +3,7 @@ import TagCloud from "TagCloud";
 //import { StyledCanvas } from "../styles/Canvas.styled";
 import "../styles/canvas.css";
 
-export default function Canvas() {
+const TextShpere = () => {
   React.useEffect(() => {
     return () => {
       const container = ".tagcloud";
@@ -39,4 +39,6 @@ export default function Canvas() {
       <span className="tagcloud"></span>
     </div>
   );
-}
+};
+
+export default TextShpere;

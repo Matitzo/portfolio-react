@@ -3,14 +3,15 @@ import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import Canvas from "./Canvas";
+//import TextShpere from "./Canvas";
+import { SimpleCloud } from "./Canvas_2";
 
 export default function Main() {
   return (
     <div>
       <Header />
       <About />
-      <Canvas />
+      <SimpleCloud />
       <Experience />
       <Projects />
       <Contact />
