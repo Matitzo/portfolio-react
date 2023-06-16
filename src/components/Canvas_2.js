@@ -4,6 +4,7 @@ import "../styles/canvas_2.css";
 const data = [
   { value: "JavaScript", count: 14 },
   { value: "React", count: 14 },
+  { value: "TypeScript", count: 14 },
   { value: "NodeJS", count: 14 },
   { value: "Leaflet", count: 14 },
   { value: "HTML5", count: 14 },

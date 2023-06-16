@@ -30,6 +30,16 @@ export const projects = [
     technology: ["React.js", "TypeScript", "Git", "Rest API"],
   },
   {
+    img: require("../images/todos.png"),
+    title: "To Do List",
+    description: `Simple To Do List app using TypeScript. User is allowed to add and remove tasks. 
+The app allows also mark tasks as completed and to provide a date by which the task must be complited. If a deadline
+is reached, task is marked on another color. `,
+    link: "https://matitzo.github.io/ToDoList/",
+    gitHubLink: "https://github.com/Matitzo/ToDoList",
+    technology: ["JavaScript", "TypeScript", "Git"],
+  },
+  {
     img: require("../images/unusual-places-in-the-world.png"),
     title: "Beautiful places in the world",
     description:
