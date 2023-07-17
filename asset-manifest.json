@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.66bde34a.css",
-    "main.js": "/portfolio-react/static/js/main.27b6bcda.js",
+    "main.js": "/portfolio-react/static/js/main.eb45cbdb.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-react/static/js/787.1ed0c42c.chunk.js",
     "static/media/unusual-places-in-the-world.png": "/portfolio-react/static/media/unusual-places-in-the-world.7d44dbaa27bf9c26f2e3.png",
     "static/media/colorize2.png": "/portfolio-react/static/media/colorize2.fb49dab8d07beb2db1ef.png",
@@ -10,11 +10,11 @@
     "static/media/todos.png": "/portfolio-react/static/media/todos.0bd90deccbfa903494da.png",
     "index.html": "/portfolio-react/index.html",
     "main.66bde34a.css.map": "/portfolio-react/static/css/main.66bde34a.css.map",
-    "main.27b6bcda.js.map": "/portfolio-react/static/js/main.27b6bcda.js.map",
+    "main.eb45cbdb.js.map": "/portfolio-react/static/js/main.eb45cbdb.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66bde34a.css",
-    "static/js/main.27b6bcda.js"
+    "static/js/main.eb45cbdb.js"
   ]
 }
