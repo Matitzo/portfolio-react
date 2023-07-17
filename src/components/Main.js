@@ -12,7 +12,7 @@ export default function Main() {
     <div>
       <Header />
       <About />
-      <TextShpere />
+      <SimpleCloud />
       <Experience />
       <Projects />
       <Contact />
