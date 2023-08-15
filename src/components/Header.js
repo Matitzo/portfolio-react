@@ -19,7 +19,7 @@ export default function Header() {
     <StyledHeaderContainerDiv>
       <StyledHeaderWrapperDiv>
         <StyledHeaderHeaderTwo>
-          Hi, my name is Mateusz. <span>I'm a fronted developer.</span>
+          Hi, my name is Mateusz. <span>I'm a front-end developer.</span>
         </StyledHeaderHeaderTwo>
         <StyledHeaderParagraph>
           I specialize in front-end development using React.js, creating good

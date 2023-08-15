@@ -34,7 +34,7 @@ export default function About() {
         </p>
         <p>
           Thank you for taking the time to visit my portfolio. Please feel free
-          to explore my projects and get in <span>touch</span> if you have any
+          to explore my projects and <span>get in touch</span> if you have any
           questions or if you would like to collaborate on a project.
         </p>
       </StyledAboutWrapperDiv>

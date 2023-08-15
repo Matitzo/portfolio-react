@@ -6,13 +6,14 @@ import Contact from "./Contact";
 //import TextShpere from "./Canvas";
 import { SimpleCloud } from "./Canvas_2";
 import TextShpere from "./Canvas";
+import Skills from "./Skills";
 
 export default function Main() {
   return (
     <div>
       <Header />
       <About />
-      <SimpleCloud />
+      <Skills />
       <Experience />
       <Projects />
       <Contact />
