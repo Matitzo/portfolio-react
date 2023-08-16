@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledNavbarContainerDiv = styled.div`
   position: fixed;
-  width: calc(100% - 3em);
+  width: calc(100% - 6em);
   min-height: 70px;
   background: ${(props) => {
     return props.theme.isDarkMode
@@ -10,7 +10,7 @@ export const StyledNavbarContainerDiv = styled.div`
       : props.theme.lightMode.navbarBackground;
   }};
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
   font-weight: bold;
   z-index: 9999;
@@ -20,6 +20,13 @@ export const StyledNavbarContainerDiv = styled.div`
     align-items: center;
   }
   padding-right: 3em;
+  padding-left: 3em;
+
+  @media (max-width: 765px) {
+    width: calc(100% - 2em);
+    padding-right: 1em;
+    padding-left: 1em;
+  }
 `;
 
 export const StyledNavbarUl = styled.ul`
@@ -42,6 +49,22 @@ export const StyledNavbarUl = styled.ul`
     &:focus {
       cursor: pointer;
       background: rgba(255, 255, 255, 0.08);
+    }
+  }
+
+  @media (max-width: 765px) {
+    width: 100%;
+    justify-content: space-around;
+    padding: 1em 0.5em;
+
+    li {
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 340px) {
+    li {
+      font-size: 0.9rem;
     }
   }
 `;
@@ -81,5 +104,5 @@ export const StyledModalContent = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%; /* Could be more or less, depending on screen size */
+  width: 100%;
 `;

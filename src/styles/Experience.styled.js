@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledExperienceContainerDiv = styled.div`
-  padding: 3em 0;
+  padding: 3em 0 2em 0;
   color: ${(props) =>
     props.theme.isDarkMode
       ? props.theme.darkMode.text

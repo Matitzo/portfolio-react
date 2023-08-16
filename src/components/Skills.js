@@ -35,27 +35,27 @@ const skills = [
 
 function Skills() {
   function checkIcon(id) {
-    if (id == 0) {
+    if (id === 0) {
       return <SiJavascript />;
-    } else if (id == 1) {
+    } else if (id === 1) {
       return <SiReact />;
-    } else if (id == 2) {
+    } else if (id === 2) {
       return <SiTypescript />;
-    } else if (id == 3) {
+    } else if (id === 3) {
       return <FaNodeJs />;
-    } else if (id == 4) {
+    } else if (id === 4) {
       return <SiExpress />;
-    } else if (id == 5) {
+    } else if (id === 5) {
       return <SiLeaflet />;
-    } else if (id == 6) {
+    } else if (id === 6) {
       return <SiPython />;
-    } else if (id == 7) {
+    } else if (id === 7) {
       return <GrMysql />;
-    } else if (id == 8) {
+    } else if (id === 8) {
       return <SiCsharp />;
-    } else if (id == 9) {
+    } else if (id === 9) {
       return <SiBattledotnet />;
-    } else if (id == 10) {
+    } else if (id === 10) {
       return <SiGitlab />;
     }
   }

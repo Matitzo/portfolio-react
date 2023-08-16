@@ -1,6 +1,8 @@
+import { PiStudent } from "react-icons/pi";
 import styled from "styled-components";
 
 export const StyledExperienceCardContainerDiv = styled.div`
+  margin: 1em 0;
   color: ${(props) =>
     props.theme.isDarkMode
       ? props.theme.darkMode.text
@@ -25,7 +27,10 @@ export const StyledExperienceHeadLeftDiv = styled.div`
   gap: 0.5em;
   margin-bottom: 0.5em;
   svg {
+    width: 60px;
+    height: 60px;
     min-width: 50px;
+    color: rgb(49, 151, 149);
   }
 
   div {
@@ -55,6 +60,7 @@ export const StyledExperienceBodyDiv = styled.div`
     padding: 0;
 
     li {
+      margin-bottom: 0.5em;
     }
   }
 `;

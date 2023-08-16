@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "./Logo";
 import { useAnimation, motion } from "framer-motion";
 import NavbarUl from "./NavbarUl";
 import {
@@ -19,12 +20,10 @@ export default function Navbar({ isDarkMode, setIsDarkMode }) {
   const [windowWidth, setWindowWidth] = React.useState(window.innerWidth);
   const controls = useAnimation();
 
-  // this use effect cotrols navbar animation slide in and slide out
   React.useEffect(() => {
     modalAnimation ? controls.start("end") : controls.start("start");
   }, [modalAnimation, controls]);
 
-  // this use effect control showing hamburger depending on window width
   React.useEffect(() => {
     const handleWindowResize = () => {
       setWindowWidth(window.innerWidth);
@@ -53,6 +52,7 @@ export default function Navbar({ isDarkMode, setIsDarkMode }) {
 
   return (
     <StyledNavbarContainerDiv>
+      <Logo />
       {isModal && (
         <StyledModalDiv id="modal" onClick={(e) => handleIsModal(e)}>
           <StyledModalContent
