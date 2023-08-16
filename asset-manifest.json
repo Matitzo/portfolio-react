@@ -1,20 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.66bde34a.css",
-    "main.js": "/portfolio-react/static/js/main.42f8898b.js",
+    "main.css": "/portfolio-react/static/css/main.e6c13ad2.css",
+    "main.js": "/portfolio-react/static/js/main.2017f6a8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-react/static/js/787.1ed0c42c.chunk.js",
     "static/media/unusual-places-in-the-world.png": "/portfolio-react/static/media/unusual-places-in-the-world.7d44dbaa27bf9c26f2e3.png",
     "static/media/smart-edukacja.png": "/portfolio-react/static/media/smart-edukacja.0fab7c11be957e2447f9.png",
+    "static/media/smart-edukacja-filters.png": "/portfolio-react/static/media/smart-edukacja-filters.3e63a8213cfe443c69e9.png",
     "static/media/colorize2.png": "/portfolio-react/static/media/colorize2.99918a4607f38d5d4bfc.png",
+    "static/media/unusual-places-in-the-world-map.png": "/portfolio-react/static/media/unusual-places-in-the-world-map.601d38f5dc48690896d5.png",
+    "static/media/smart-edukacja-registration.png": "/portfolio-react/static/media/smart-edukacja-registration.292697ce93840abde6f1.png",
     "static/media/weather-app.png": "/portfolio-react/static/media/weather-app.305418ec69e41cc65d98.png",
+    "static/media/smart-edukacja-announcement.png": "/portfolio-react/static/media/smart-edukacja-announcement.da10718afc46da4c2fed.png",
+    "static/media/unusual-places-in-the-world-map-new-place.png": "/portfolio-react/static/media/unusual-places-in-the-world-map-new-place.a7548f8e7bc005b147c1.png",
+    "static/media/smart-edukacja-create-ads.png": "/portfolio-react/static/media/smart-edukacja-create-ads.c0baa080b96b1a47c26e.png",
+    "static/media/smart-edukacja-my-adds.png": "/portfolio-react/static/media/smart-edukacja-my-adds.d69999bbbc5be43f3f5b.png",
     "static/media/todos.png": "/portfolio-react/static/media/todos.0bd90deccbfa903494da.png",
+    "static/media/colorize-search.png": "/portfolio-react/static/media/colorize-search.f227fca30698e9b27e91.png",
+    "static/media/colorize-compare.png": "/portfolio-react/static/media/colorize-compare.07fcd5521161282c550a.png",
+    "static/media/logo2-light.png": "/portfolio-react/static/media/logo2-light.f50aa2675d9da99af1e7.png",
     "index.html": "/portfolio-react/index.html",
-    "main.66bde34a.css.map": "/portfolio-react/static/css/main.66bde34a.css.map",
-    "main.42f8898b.js.map": "/portfolio-react/static/js/main.42f8898b.js.map",
+    "main.e6c13ad2.css.map": "/portfolio-react/static/css/main.e6c13ad2.css.map",
+    "main.2017f6a8.js.map": "/portfolio-react/static/js/main.2017f6a8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66bde34a.css",
-    "static/js/main.42f8898b.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2017f6a8.js"
   ]
 }
