@@ -2,7 +2,8 @@ import { PiStudent } from "react-icons/pi";
 import styled from "styled-components";
 
 export const StyledExperienceCardContainerDiv = styled.div`
-  margin: 1em 0;
+  margin: 2em 0;
+  padding: 1em;
   color: ${(props) =>
     props.theme.isDarkMode
       ? props.theme.darkMode.text
@@ -13,7 +14,6 @@ export const StyledExperienceCardContainerDiv = styled.div`
       : props.theme.lightMode.cardBeckground;
   }};
   border-radius: 5px;
-  padding: 1em;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 `;
 
@@ -55,12 +55,22 @@ export const StyledExperienceHeadparagraph = styled.p`
 
 export const StyledExperienceBodyDiv = styled.div`
   ul {
+    margin: 0 0 1.2em 0;
+    padding: 0 1em;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 
-    li {
-      margin-bottom: 0.5em;
+    li::before {
+      content: "";
+      border-color: transparent rgb(49, 151, 149);
+      border-style: solid;
+      border-radius: 2px;
+      border-width: 0.5em 0 0.5em 0.5em;
+      display: block;
+      height: 0;
+      width: 0;
+      left: -1em;
+      top: 1.2em;
+      position: relative;
     }
   }
 `;

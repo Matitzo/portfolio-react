@@ -52,7 +52,7 @@ export default function Navbar({ isDarkMode, setIsDarkMode }) {
 
   return (
     <StyledNavbarContainerDiv>
-      <Logo />
+      <Logo isDarkMode={isDarkMode} />
       {isModal && (
         <StyledModalDiv id="modal" onClick={(e) => handleIsModal(e)}>
           <StyledModalContent

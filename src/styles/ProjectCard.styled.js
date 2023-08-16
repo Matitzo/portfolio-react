@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const StyledProjectCardContainerDiv = styled.div`
   min-width: 600px;
@@ -8,6 +8,11 @@ export const StyledProjectCardContainerDiv = styled.div`
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   display: flex;
   flex-direction: column;
+  background: ${(props) => {
+    return props.theme.isDarkMode
+      ? props.theme.darkMode.projectInfoBg
+      : props.theme.lightMode.projectInfoBg;
+  }};
 
   &:first-child {
     margin-top: 0;
@@ -23,29 +28,39 @@ export const StyledProjectCardContainerDiv = styled.div`
 `;
 
 export const StyledProjectCardImg = styled.img`
-  width: 100%;
-  border-top-left-radius: 0.375rem;
-  border-top-right-radius: 0.375rem;
+  width: calc(100% - 2px);
+  border-radius: 0.375rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 `;
 
 export const StyledProjectCardInfoWrapperDiv = styled.div`
-  background: ${(props) => {
-    return props.theme.isDarkMode
-      ? props.theme.darkMode.projectInfoBg
-      : props.theme.lightMode.projectInfoBg;
-  }};
   padding: 1em;
-  border-bottom-left-radius: 0.375rem;
-  border-bottom-right-radius: 0.375rem;
+  border-radius: 0.375rem;
 
   h2 {
     font-size: 1.25rem;
     margin: 0;
+    margin-bottom: 1em;
   }
 
   p {
     margin-bottom: 0;
   }
+`;
+
+export const StyledProjectCardSlidesContainer = styled.div`
+  overflow: hidden;
+`;
+
+export const StyledProjectCardSlideWrapper = styled.div`
+  display: flex;
+  transition: transform 0.3s;
+
+  ${(props) =>
+    props.activeIndex &&
+    css`
+      transform: translate(-${props.activeIndex * 100}%);
+    `}
 `;
 
 export const StyledProjectCardButtonsWrapperDiv = styled.div`
@@ -101,4 +116,9 @@ export const StyledProjectCardTechDiv = styled.div`
   padding: 0 0.5em;
   font-size: 0.9rem;
   font-weight: bold;
+`;
+
+export const StyledSlideContainer = styled.div`
+  transition: transform 0.3s;
+  min-width: 100%;
 `;
