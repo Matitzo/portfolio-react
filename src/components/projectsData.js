@@ -106,6 +106,15 @@ export const projects = [
     ],
   },
   {
+    img: require("../images/portfolio-dragon.png"),
+    title: "Personal Website",
+    description: "Personal portfolio page with cool animations.",
+    link: "https://matitzo.github.io/portfolio-dragon/",
+    gitHubLink: "https://github.com/Matitzo/portfolio-dragon",
+    technology: ["React", "Styled Components", "Framer Motion"],
+    areSlides: false,
+  },
+  {
     img: require("../images/colorize2.png"),
     title: "Colorize",
     description:
