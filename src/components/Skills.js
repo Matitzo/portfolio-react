@@ -15,6 +15,7 @@ import {
   SiGitlab,
   SiBattledotnet,
   SiCsharp,
+  SiAngular,
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
@@ -22,6 +23,7 @@ import { GrMysql } from "react-icons/gr";
 const skills = [
   "JavaScript",
   "React",
+  "Angular",
   "TypeScript",
   "NodeJS",
   "Express",
@@ -40,22 +42,24 @@ function Skills() {
     } else if (id === 1) {
       return <SiReact />;
     } else if (id === 2) {
-      return <SiTypescript />;
+      return <SiAngular />;
     } else if (id === 3) {
-      return <FaNodeJs />;
+      return <SiTypescript />;
     } else if (id === 4) {
-      return <SiExpress />;
+      return <FaNodeJs />;
     } else if (id === 5) {
-      return <SiLeaflet />;
+      return <SiExpress />;
     } else if (id === 6) {
-      return <SiPython />;
+      return <SiLeaflet />;
     } else if (id === 7) {
-      return <GrMysql />;
+      return <SiPython />;
     } else if (id === 8) {
-      return <SiCsharp />;
+      return <GrMysql />;
     } else if (id === 9) {
-      return <SiBattledotnet />;
+      return <SiCsharp />;
     } else if (id === 10) {
+      return <SiBattledotnet />;
+    } else if (id === 11) {
       return <SiGitlab />;
     }
   }
